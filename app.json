@@ -32,7 +32,16 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow MyPaypulse to access your camera",
+          "microphonePermission": "Allow MyPaypulse to access your microphone",
+          "recordAudioAndroid": true
+        }
       ]
+      
     ],
     "experiments": {
       "typedRoutes": true
